@@ -1,9 +1,235 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My First GitHub Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pranay Singh — PhD candidate in Civil Engineering at the University at Buffalo. Research in advanced concrete materials, 3D concrete printing, structural resilience, prestressed concrete, and computational mechanics." />
+  <meta name="theme-color" content="#08111f" />
+  <title>Pranay Singh | Civil Engineering Researcher</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Hello, world!</h1>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Pranay Singh home">PS</a>
+    <nav aria-label="Main navigation">
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">Civil Engineering · Materials · Structures · Computation</p>
+        <h1>Pranay Singh</h1>
+        <h2>Building resilient infrastructure through advanced materials and structural engineering.</h2>
+        <p class="hero-text">
+          PhD Candidate in Civil Engineering at the University at Buffalo, graduating in December 2026. My research spans
+          3D-printable cementitious composites, prestressed concrete, fracture and durability, seismic resilience, and
+          computational methods for structural engineering.
+        </p>
+        <div class="status-card">
+          <span class="status-dot" aria-hidden="true"></span>
+          <p><strong>Seeking post-PhD opportunities:</strong> faculty, postdoctoral/research scientist, and industry R&amp;D / structural-materials engineering roles beginning after December 2026.</p>
+        </div>
+        <div class="hero-actions">
+          <a class="button primary" href="CV-Pranay-Singh.pdf" target="_blank" rel="noreferrer">Download CV</a>
+          <a class="button secondary" href="mailto:pranaysi@buffalo.edu">Email me</a>
+          <a class="text-link" href="#research">Explore research ↓</a>
+        </div>
+      </div>
+
+      <aside class="hero-panel" aria-label="Research profile summary">
+        <p class="panel-kicker">Research profile</p>
+        <div class="metric"><strong>20+</strong><span>publications &amp; proceedings listed on CV</span></div>
+        <div class="metric"><strong>15</strong><span>journal articles reviewed</span></div>
+        <div class="metric"><strong>3</strong><span>degrees in civil engineering</span></div>
+        <div class="focus-list">
+          <span>3D Concrete Printing</span>
+          <span>Advanced Cementitious Materials</span>
+          <span>Prestressed Concrete</span>
+          <span>Structural Resilience</span>
+          <span>Computational Mechanics</span>
+          <span>AI / Computer Vision</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section intro-section">
+      <div>
+        <p class="section-label">Profile</p>
+        <h2>Experimental research with a structural-engineering perspective.</h2>
+      </div>
+      <div class="section-copy">
+        <p>
+          My work connects material development to structural performance. I study how advanced cementitious materials can
+          improve durability, ductility, constructability, and resilience, then translate those material-level findings into
+          structural applications and design guidance.
+        </p>
+        <p>
+          I also bring experience in nonlinear structural analysis, seismic protective systems, finite-element modeling,
+          computer vision, machine learning, and high-performance computing—supporting research that moves between laboratory
+          testing, numerical simulation, and data-driven analysis.
+        </p>
+      </div>
+    </section>
+
+    <section id="research" class="section">
+      <div class="section-heading-row">
+        <div>
+          <p class="section-label">Research</p>
+          <h2>Selected research themes &amp; projects</h2>
+        </div>
+        <p class="section-note">From material formulation to structural-scale performance.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-number">01</div>
+          <h3>3D-Printed SHCC for Prestressed Bridge Girders</h3>
+          <p>Developed and investigated a 3D-printable strain-hardening cementitious composite cover to mitigate end-zone cracking in pretensioned bridge girders.</p>
+          <div class="project-meta"><span>3D Printing</span><span>SHCC</span><span>Prestressed Concrete</span><span>Durability</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">02</div>
+          <h3>ECC for Post-Tensioned Girders</h3>
+          <p>Established design guidance for using Engineered Cementitious Composites to enhance the flexural performance of girders with unbonded post-tensioning strands.</p>
+          <div class="project-meta"><span>ECC</span><span>Post-Tensioning</span><span>Flexure</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">03</div>
+          <h3>Durable Reinforced Concrete</h3>
+          <p>Investigated steel-wool reinforcement as a strategy to improve fracture performance and mitigate cracking in reinforced concrete members for bridge applications.</p>
+          <div class="project-meta"><span>Fracture</span><span>Bridges</span><span>Concrete</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">04</div>
+          <h3>Enhanced Seismic Isolation</h3>
+          <p>Analyzed recentering passive friction-based seismic isolation devices and developed a novel isolation concept aimed at easier implementation and enhanced performance.</p>
+          <div class="project-meta"><span>Seismic</span><span>Isolation</span><span>Numerical Modeling</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">05</div>
+          <h3>Low-Carbon &amp; High-Performance Concrete</h3>
+          <p>Worked on UHPC, fiber-reinforced high-strength concrete, geopolymer concrete, recycled-aggregate concrete, and roller-compacted concrete for resilient and sustainable infrastructure.</p>
+          <div class="project-meta"><span>UHPC</span><span>Geopolymer</span><span>Fibers</span><span>Sustainability</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">06</div>
+          <h3>AI for Concrete Crack Detection</h3>
+          <p>Applied computer vision and convolutional neural networks to crack detection and segmentation in concrete beams undergoing Mode-I fracture.</p>
+          <div class="project-meta"><span>Computer Vision</span><span>CNN</span><span>Python</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="publications" class="section publication-section">
+      <div class="publication-intro">
+        <p class="section-label">Publications</p>
+        <h2>Selected scholarly work</h2>
+        <p>My publication record spans digital fabrication, fracture mechanics, sustainable concrete, structural control, and computational methods.</p>
+      </div>
+
+      <div class="publication-list">
+        <article>
+          <span class="pub-year">2023</span>
+          <div><h3>Crack detection and crack segmentation in concrete beams undergoing Mode I fracture using computer vision and convolutional neural network</h3><p><em>Canadian Journal of Civil Engineering</em>, 50(5), 432–443.</p></div>
+        </article>
+        <article>
+          <span class="pub-year">2023</span>
+          <div><h3>Fracture behavior of slag &amp; fly ash-based geopolymer concrete in comparison with OPC-based conventional concrete, including the effect of steel and hybrid fibers</h3><p><em>Revista Ingeniería de Construcción</em>, 38(2).</p></div>
+        </article>
+        <article>
+          <span class="pub-year">2022</span>
+          <div><h3>Seismic performance assessment of adjacent building structures connected with superelastic shape memory alloy damper and comparison with yield damper</h3><p><em>Structural Control and Health Monitoring</em>, e2926.</p></div>
+        </article>
+        <article>
+          <span class="pub-year">2024</span>
+          <div><h3>3D printed advanced materials to mitigate prestressed concrete girder end cracks</h3><p>TRB 103rd Annual Meeting.</p></div>
+        </article>
+      </div>
+      <p class="small-note">For the full publication list, presentations, and conference activity, see my CV.</p>
+    </section>
+
+    <section id="experience" class="section">
+      <p class="section-label">Experience</p>
+      <h2>Research across academia and applied R&amp;D.</h2>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-date">2023 — 2026</div>
+          <div><h3>PhD in Civil Engineering · University at Buffalo, SUNY</h3><p>Research focused on advanced concrete materials, prestressed bridge applications, crack mitigation, 3D concrete printing, and structural performance.</p></div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">2022 — 2023</div>
+          <div><h3>Senior Project Scientist · IIT Delhi</h3><p>Investigated recentering passive friction-based seismic isolation systems, developed numerical models, and contributed to a novel base-isolation concept.</p></div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">2021 — 2022</div>
+          <div><h3>Project Engineer · National Council for Cement and Building Materials</h3><p>Worked on advanced concrete materials for structural resilience and sustainability, including UHPC, fiber-reinforced concrete, geopolymer concrete, and structural performance evaluation.</p></div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">2019 — 2021</div>
+          <div><h3>M.Tech. in Civil Engineering · IIT Patna</h3><p>Graduate work in structural dynamics, earthquake-resistant design, finite-element methods, and seismic engineering.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section capabilities-section">
+      <div>
+        <p class="section-label">Capabilities</p>
+        <h2>Tools I use to connect experiments, mechanics, and computation.</h2>
+      </div>
+      <div class="capability-grid">
+        <article><h3>Structural &amp; FE Analysis</h3><p>ABAQUS · ANSYS · SAP2000 · ETABS · OpenSees</p></article>
+        <article><h3>Programming &amp; Data</h3><p>Python · MATLAB · Java · machine learning · neural networks · high-performance computing</p></article>
+        <article><h3>Concrete Materials</h3><p>Mix design · fresh &amp; hardened properties · fracture · microstructure · UHPC · ECC/SHCC · geopolymer concrete</p></article>
+        <article><h3>Structural Engineering</h3><p>Static &amp; dynamic analysis · prestressed concrete · seismic response · structural resilience · design under extreme loads</p></article>
+      </div>
+    </section>
+
+    <section class="section recognition-section">
+      <div>
+        <p class="section-label">Academic service &amp; recognition</p>
+        <h2>Active in the broader research community.</h2>
+      </div>
+      <div class="recognition-grid">
+        <article><strong>Institute Silver Medal</strong><p>Highest CGPA in the Department of Civil and Environmental Engineering, IIT Patna (2021).</p></article>
+        <article><strong>Peer Reviewer</strong><p>Reviewer for journals including <em>Automation in Construction</em>, <em>Construction and Building Materials</em>, and ASCE’s <em>Journal of Materials in Civil Engineering</em>.</p></article>
+        <article><strong>Scientific Service</strong><p>Session moderator at AAMCT 2024 and member of the Scientific Committee for Digital Concrete (3DPCMS) 2026.</p></article>
+        <article><strong>Professional Memberships</strong><p>ACI · RILEM · ASCE · PCI · fib International.</p></article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <p class="section-label">Post-PhD opportunities</p>
+      <h2>Interested in research that moves infrastructure forward?</h2>
+      <p>
+        I’m interested in academic and industry opportunities where advanced materials, structural engineering, digital fabrication,
+        computational mechanics, and data-driven methods can be combined to improve infrastructure performance and resilience.
+      </p>
+      <div class="contact-actions">
+        <a class="button primary" href="mailto:pranaysi@buffalo.edu">pranaysi@buffalo.edu</a>
+        <a class="button secondary" href="CV-Pranay-Singh.pdf" target="_blank" rel="noreferrer">View CV</a>
+      </div>
+      <p class="link-note">Add your Google Scholar, LinkedIn, ORCID, and GitHub URLs here before publishing.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Pranay Singh · Civil Engineering Researcher · Built with GitHub Pages</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
